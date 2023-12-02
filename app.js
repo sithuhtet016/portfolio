@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 app.get("/projects", (req, res) => {
   res.render("projects");
 });
-
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+const PORT = process.env.PORT;
+app.listen(PORT, () => {
+  console.log("Server is running on port PORT");
 });
