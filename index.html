@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <title>Si Thu Htet's Portfolio</title>
+  </head>
+  <body class="px-[20px] min-w-[390px] max-w-[1440px] mx-auto">
+    <div class="flex items-center justify-between h-[64px] py-[10px]">
+      <header class="font-[700] text-[16px] leading-[19.2px] text-[#24262F]">
+        <a href="#home">Si Thu<span class="text-[#6E06F2]">.</span></a>
+      </header>
+      <nav>
+        <a href="#" aria-label="Open navigation menu">
+          <i aria-hidden="true" class="fa-solid fa-bars"></i>
+        </a>
+      </nav>
+    </div>
+    <main role="main">
+      <section aria-label="home" id="home">
+        <!-- Hero Section -->
+        <div class="mt-[75px]">
+          <p class="text-[24px] font-[400] leading-[28.8px] text-[#333]">
+            Hey, I'm Si Thu 👋
+          </p>
+          <h1
+            class="text-[58px] font-[700] leading-[58px] text-[#24262F] mt-[6px]"
+          >
+            <span class="text-[#6E06F2]">Front</span>end <br />
+            Developer
+          </h1>
+        </div>
+        <p
+          class="text-[#4E525A] text-[18px] font-[400] leading-[28.6px] mt-[25px]"
+        >
+          Building intuitive and beautiful web experiences your users will love.
+          <br />| Frontend Developer based in UAE
+        </p>
+        <div class="flex gap-[15px] mt-[25px]">
+          <a
+            class="w-fit h-[40px] flex justify-center items-center px-[15px] bg-[#6E06F2] rounded-[8px] text-[#FFF] text-[14px] font-[700] leading-[16.8px]"
+            href="#contact"
+            >Get In Touch</a
+          >
+          <a
+            class="w-fit h-[40px] flex justify-center items-center px-[15px] border-[2px] border-solid border-[#24262F] rounded-[8px] text-[#24262F] text-[14px] font-[700] leading-[16.8px]"
+            href="#browseProjects"
+            >Browse Projects</a
+          >
+        </div>
+        <div
+          class="w-[280px] h-[280px] border-[1.5px] border-solid border-[#6E06F266] rounded-[50%] mx-auto mt-[85px] mb-[85px]"
+        >
+          <img
+            class="w-[224px] aspect-square object-cover rounded-[50%] m-[28px]"
+            src="./src/img/profilePicture.JPG"
+            alt="Si Thu Htet profile picture"
+          />
+        </div>
+      </section>
+      <section aria-label="projects" class="mt-[125px]" id="browseProjects">
+        <!-- projects -->
+        <h2 class="text-[#24262F] text-[46px] font-[700] leading-[55.2px]">
+          Projects<span class="text-[#6E06F2]">.</span>
+        </h2>
+        <div class="projects-container mt-[25px] mx-auto">
+          <div class="w-[350px]" tabindex="0">
+            <img
+              class="w-full h-[275px] object-cover rounded-[20px]"
+              src="./src/img/comingSoonProjectPlaceholder.png"
+              alt="exampleProjectPlaceholder"
+            />
+            <div class="mt-[30px]">
+              <a
+                href="#project1"
+                class="text-[#24262F] text-[20px] font-[700] leading-[24px]"
+              >
+                TaskFlow
+                <i
+                  aria-hidden="true"
+                  class="fa-solid fa-circle-arrow-up rotate-45 text-[#6E06F2]"
+                ></i>
+              </a>
+              <p
+                class="text-[#4E525A] text-[18px] font-[500] leading-[28.6px] mt-[10px]"
+              >
+                Task management system with drag- and-drop, real-time
+                collaboration, and responsive layout.
+              </p>
+            </div>
+          </div>
+          <div class="w-[350px] mt-[40px]" tabindex="0">
+            <img
+              class="w-full h-[275px] object-cover rounded-[20px]"
+              src="./src/img/comingSoonProjectPlaceholder.png"
+              alt="exampleProjectPlaceholder"
+            />
+            <div class="mt-[30px]">
+              <a
+                href="#project2"
+                class="text-[#24262F] text-[20px] font-[700] leading-[24px]"
+              >
+                EcoCart
+                <i
+                  aria-hidden="true"
+                  class="fa-solid fa-circle-arrow-up rotate-45 text-[#6E06F2]"
+                ></i>
+              </a>
+              <p
+                class="text-[#4E525A] text-[18px] font-[500] leading-[28.6px] mt-[10px]"
+              >
+                E-commerce platform promoting eco- friendly products with
+                payment integration.
+              </p>
+            </div>
+          </div>
+          <div class="w-[350px] mt-[40px]" tabindex="0">
+            <img
+              class="w-full h-[275px] object-cover rounded-[20px]"
+              src="./src/img/comingSoonProjectPlaceholder.png"
+              alt="exampleProjectPlaceholder"
+            />
+            <div class="mt-[30px]">
+              <a
+                href="#project3"
+                class="text-[#24262F] text-[20px] font-[700] leading-[24px]"
+              >
+                EventPlanner
+                <i
+                  aria-hidden="true"
+                  class="fa-solid fa-circle-arrow-up rotate-45 text-[#6E06F2]"
+                ></i>
+              </a>
+              <p
+                class="text-[#4E525A] text-[18px] font-[500] leading-[28.6px] mt-[10px]"
+              >
+                Event planning web application, enabling users to organise and
+                manage events effortlessly.
+              </p>
+            </div>
+          </div>
+          <div class="w-[350px] mt-[40px]" tabindex="0">
+            <img
+              class="w-full h-[275px] object-cover rounded-[20px]"
+              src="./src/img/comingSoonProjectPlaceholder.png"
+              alt="exampleProjectPlaceholder"
+            />
+            <div class="mt-[30px]">
+              <a
+                href="#project4"
+                class="text-[#24262F] text-[20px] font-[700] leading-[24px]"
+              >
+                FoodieFinder
+                <i
+                  aria-hidden="true"
+                  class="fa-solid fa-circle-arrow-up rotate-45 text-[#6E06F2]"
+                ></i>
+              </a>
+              <p
+                class="text-[#4E525A] text-[18px] font-[500] leading-[28.6px] mt-[10px]"
+              >
+                Modern-looking restaurant discovery platform featuring real-time
+                search, reviews, and ratings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section aria-label="experience" class="mt-[125px]" id="experience">
+        <!-- experience -->
+        <h2 class="text-[#24262F] text-[46px] font-[700] leading-[55.2px]">
+          Experience<span class="text-[#6E06F2]">.</span>
+        </h2>
+        <div class="mt-[25px]">
+          <div>
+            <!-- @apple -->
+            <h4 class="text-[#24262F] text-[22px] font-[500] leading-[26.4px]">
+              Engineer <span class="text-[#6E06F2]">@ Apple</span>
+            </h4>
+            <p
+              class="text-[#4E525A] text-[13px] font-[500] leading-[15.6px] mt-[10px]"
+            >
+              May 2018 - Present
+            </p>
+            <ul class="mt-[30px]">
+              <li
+                class="flex items-baseline gap-[10px] text-[#4E525A] text-[18px] font-[400] leading-[28.6px]"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fa-solid fa-check text-[#6E06F2]"
+                ></i>
+                Developed and shipped highly interactive web applications for
+                Apple Music using Ember.js
+              </li>
+              <li
+                class="flex items-baseline gap-[10px] text-[#4E525A] text-[18px] font-[400] leading-[28.6px] mt-[20px]"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fa-solid fa-check text-[#6E06F2]"
+                ></i>
+                Built and shipped the Apple Music Extension within Facebook
+                Messenger leveraging third-party and internal APIs
+              </li>
+              <li
+                class="flex items-baseline gap-[10px] text-[#4E525A] text-[18px] font-[400] leading-[28.6px] mt-[20px]"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fa-solid fa-check text-[#6E06F2]"
+                ></i>
+                Contributed extensively to MusicKit.js, a JavaScript framework
+                that allows developers to add an Apple Music player to their web
+                apps
+              </li>
+            </ul>
+            <a class="flex justify-end mt-[30px]" href="#">
+              <i aria-hidden="true" class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section aria-label="skills" class="mt-[125px]" id="skills">
+        <!-- skills -->
+        <h2 class="text-[#24262F] text-[46px] font-[700] leading-[55.2px]">
+          Skills<span class="text-[#6E06F2]">.</span>
+        </h2>
+        <div class="mt-[25.2px]">
+          <div>
+            <h3 class="text-[#24262F] text-[20px] font-[700] leading-[24px]">
+              Web Design
+            </h3>
+            <ul class="mt-[20px]">
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px]"
+              >
+                UI/UX Design
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                Responsive Design
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                Wireframing
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                User Research
+              </li>
+            </ul>
+          </div>
+          <div class="mt-[30px]">
+            <h3 class="text-[#24262F] text-[20px] font-[700] leading-[24px]">
+              Frontend
+            </h3>
+            <ul class="mt-[20px]">
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px]"
+              >
+                HTML5
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                CSS3
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                JavaScript (ES6+)
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                ReactJS
+              </li>
+            </ul>
+          </div>
+          <div class="mt-[30px]">
+            <h3 class="text-[#24262F] text-[20px] font-[700] leading-[24px]">
+              Backend
+            </h3>
+            <ul class="mt-[20px]">
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px]"
+              >
+                NodeJS
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                MongoDB
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                ExpressJS
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                RESTful APIs
+              </li>
+            </ul>
+          </div>
+          <div class="mt-[30px]">
+            <h3 class="text-[#24262F] text-[20px] font-[700] leading-[24px]">
+              Soft Skills
+            </h3>
+            <ul class="mt-[20px]">
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px]"
+              >
+                Effective Communication
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                Team Collaboration
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                Commitment
+              </li>
+              <li
+                class="text-[#4E525A] text-[18px] font-[400] leading-[21.6px] mt-[8px]"
+              >
+                Leadership
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section aria-label="aboutMe" class="mt-[125px]" id="aboutMe">
+        <!-- about me -->
+        <h2 class="text-[#24262F] text-[46px] font-[700] leading-[55.2px]">
+          My Story<span class="text-[#6E06F2]">.</span>
+        </h2>
+        <p
+          class="text-[#4E525A] text-[18px] font-[400] leading-[28.6px] mt-[25px]"
+        >
+          Lorem ipsum dolor sit amet, consect etur adipiscing elit, sed do
+          eiusmod t empor incididunt ut labore et dolore magna a liqua. Ut enim
+          ad m. <br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempo r incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a.
+          <br /><br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempo r incididunt ut labore et dolore magna al iqua. Ut enim
+          ad minim ve. <br /><br />
+          Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiusm
+          od tempor incididunt ut labore et. <br /><br />
+          Lorem ipsum dolor sit amet, consectetur ad ipiscing elit, sed do
+          eiusmod tempo r incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis ostrud exercitation ullamco laboris ni si ut
+          aliquip ex ea!
+        </p>
+      </section>
+    </main>
+    <footer class="mt-[125px] mb-[20px]">
+      <div class="flex justify-center gap-[25px]">
+        <a
+          href="https://www.instagram.com/rnxg.lu/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i aria-hidden="true" class="text-[24px] fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sithuhtet-frontenddev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i aria-hidden="true" class="text-[24px] fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/sithuhtet016"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i aria-hidden="true" class="text-[24px] fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://dribbble.com/sithuhtet016"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i aria-hidden="true" class="text-[24px] fa-brands fa-dribbble"></i
+        ></a>
+      </div>
+      <p
+        class="text-[#4E525A] text-[22px] font-[600] leading-[26.4px] mt-[40px]"
+      >
+        Interested in working together<span class="text-[#6E06F2]">?</span>
+      </p>
+      <div class="flex justify-center gap-[15px] mt-[25px]">
+        <a
+          class="w-fit h-[40px] flex justify-center items-center px-[15px] bg-[#6E06F2] rounded-[8px] text-[#FFF] text-[14px] font-[700] leading-[16.8px]"
+          href="#contact"
+          >Get In Touch</a
+        >
+        <a
+          class="w-fit h-[40px] flex justify-center items-center px-[15px] border-[2px] border-solid border-[#24262F] rounded-[8px] text-[#24262F] text-[14px] font-[700] leading-[16.8px]"
+          href="#browseProjects"
+          >Browse Projects</a
+        >
+      </div>
+      <p
+        class="text-center text-[#4E525A] text-[16px] font-[400] leading-[19.2px] mt-[40px]"
+      >
+        © 2025 Si Thu Htet. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
